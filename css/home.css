@@ -1,0 +1,84 @@
+@font-face {
+	font-family: OpenDyslexic;
+	src: url("fonts/OpenDyslexic-Regular.otf");
+}
+
+@font-face {
+	font-family: OpenDyslexic;
+	font-weight: bold;
+	src: url("fonts/OpenDyslexic-Bold.otf");
+}
+
+body{
+	font-family: OpenDyslexic, Helvetica, Verdana, Sans-Serif;
+}
+
+#image_sort {
+	width: 950px;
+	height: 1400px;
+	margin: 0px 15px 0px 15px;
+	background: gray;
+	border-radius: 15px;
+}
+h1{
+	margin: 0px 0px 0px 90px;
+	padding-top: 50px;
+	font-size: 50px;
+	font-weight: bold;
+}
+ul {
+	float: left;
+	width: 740px;
+	height: 560px;
+	margin: 0px 90px 10px 90px;
+	padding-top: 30px;
+	background: white;
+	border-radius: 15px;	
+}
+
+li {
+  list-style: none;
+	float: left;
+	width: 20%;
+	height: 25%;
+	margin: 0px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+img {
+	border: black 1px solid;
+	border-radius: 15px;
+}
+
+.image {
+}
+
+.group{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin: 0px 0px 10px 10px;
+	background: white;
+	border-radius: 15px;
+}
+
+.label{
+	width: 220px;
+	height: 30px;
+	font-family: OpenDyslexic;
+	font-weight: bold;
+	font: 16px;
+	padding-left: 10px;
+	background: white;
+	margin: 10px;
+	border: black 2px solid;
+	border-radius: 15px;
+}
+
+.name{
+	float: left;
+	margin-left: 635px;
+}

@@ -31,7 +31,7 @@ ul {
 	width: 740px;
 	height: 560px;
 	margin: 0px 90px 10px 90px;
-	padding-top: 30px;
+	padding: 20px 0px 10px 20px;
 	background: white;
 	border-radius: 15px;	
 }
@@ -51,9 +51,8 @@ li a {
 img {
 	border: black 1px solid;
 	border-radius: 15px;
-}
-
-.image {
+	width:130px;
+	height:130px;
 }
 
 .group{
